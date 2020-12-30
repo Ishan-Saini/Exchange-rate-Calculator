@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: beige;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.image {
+  width: 125px;
+}
+
+.header-container {
+  margin: 10px 0 30px 0;
+  text-align: center;
+}
+
+.header {
+  margin: 20px 0;
+}
+
+.detail {
+  color: rgb(59, 163, 129);
+  font-weight: 600;
+}
+
+.currency-1,
+.btn-container,
+.currency-2 {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 25px 0;
+}
+
+.list1,
+.list2 {
+  outline: none;
+  height: 30px;
+  width: 60px;
+  font-weight: 600;
+  background-color: #fff;
+  border: 2px solid rgb(59, 163, 129);
+  border-radius: 4px;
+}
+
+.num-input1,
+.num-input2 {
+  width: 50px;
+  font-size: 16px;
+  background-color: #fff;
+  border: 2px solid rgb(59, 163, 129);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn-swap {
+  height: 25px;
+  width: 50px;
+  background-color: rgba(121, 215, 218, 0.459);
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 12px;
+  border: 2px solid rgb(46, 124, 98);
+  outline: none;
+  cursor: pointer;
+}
